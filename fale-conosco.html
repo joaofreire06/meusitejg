@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>fale conosco</title>
+    <link rel="stylesheet" type="text/css" href="inicio.css">
+    <link rel="stylesheet" type="text/css" href="fale.css" >
+</head>
+<body>
+<div id="interface">
+    <header id="cabecalho">
+        <hgroup>
+            <h1>DSVW</h1>
+            <h2>Profissões T.I</h2>
+        </hgroup>
+    <img id="icone" src="_imagens/logo-site.png">
+
+        <nav id="menu">
+         <h1>Menu Principal</h1>
+            <ul>
+                <li><a href="index.html">T.I Pro.</a></li>
+                <li><a href="dweb.html">D.web</a></li>
+                <li><a href="djava.html">D.Java</a></li>
+                <li><a href="dba.html">DBA</a></li>
+                <li><a href="autor.html">Autor</a></li>
+                <li><a href="fale-conosco.html">Fale conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+<hgroup id="cabecalho-noticia-principal">
+    <h3>Fale conosco > contato</h3>
+    <h1 class="especial">Formulário de contato</h1>
+
+</hgroup>
+
+<form method="post" id="idContato" action="mailto: joao.freiregabriel.2006@gmail.com" oninput="calc_total()">
+
+    <fieldset id="idUsuario">
+        <legend>Identificação do Usuário</legend>
+                <p><label for="idNome">Nome:</label><input type="text" name="nNome" id="idNome" size="20" maxlength="40" placeholder="nome completo"></p>
+
+                <p><label for="idEmail">E-mail:</label><input type="email" name="nEmail" id="idEmail" size="20" maxlength="40"></p>
+                <fieldset id="idSexo">
+                        <legend>Sexo:</legend>
+                    <input type="radio" name="nSexo" id="idMasc"><label for="idMasc"> Masculino</label><br>
+                    <input type="radio" name="nSexo" id="idFem"><label for="idFem">Feminino</label>
+                </fieldset>
+                <p>Data de Nascimento:<input type="date" name="nNasc" id="idNasc"></p>
+    </fieldset>
+    <fieldset id="idEndereco">
+        <legend>Endereço do Usuário:</legend>
+                <p><label for="idRua">Logradouro:</label><input type="text" name="nRua" id="idRua" size="13" maxlength="80" placeholder="Rua,Av,travessa..."></p>
+                <p><label for="idNum">Número:</label><input type="number" name="nHum" id="idNum" min="0" maxlength="9999"></p>
+                <p><label for="idEst">Estado:</label>
+                <select name="nEst" id="idEst">
+                    <optgroup label="Região Sudeste">
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="ES">Espirito Santo<option>
+                        <option value="MG">Minas Gerais</option>
+                    </optgroup>
+                    <optgroup label="Região Sul">
+                        <option value="PR">Paraná</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                    </optgroup>
+                </select>
+                </p>
+                <p><label for="idCid">cidade:</label><input type="text" name="nCid" id="idCid" size="20" maxlength="40" placeholder="sua cidade">
+                    <datalist id="cidades">
+                        <option value="Rio de Janeiro"></option>
+                        <option value="Nova Iguaçu"></option>
+                        <option value="Niterói"></option>
+                        <option value="Belford Roxo"></option>
+                    </datalist>
+    </fieldset>
+    <fieldset id="idMensagem">
+        <legend>Mensagem do Usuário</legend>
+        <p><label for="idMsg">Mensagem:</label>
+            <textarea name="nMsg" id="idMsg" cols="45" rows="5" maxlength="250" placeholder="deixe aqui sua mensagem"></textarea>
+        </p>
+    </fieldset>
+
+ <footer id="rodape">
+        <p>Copyright 2023-by João Gabriel</p>
+
+    </footer>
+</form>
+</div>
+</body>
+</html>
