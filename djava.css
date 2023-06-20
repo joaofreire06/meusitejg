@@ -146,21 +146,21 @@ article#noticia-principal h3{
     margin: 10px 0px 10px 0px;
 }
 
-table#tabelaspec {
+table#tabela {
     border: 1px solid #606060;
     border-spacing: 0px; /* espaçamento entre bordas */
     margin: auto; /* centralizar a tabela */
 }
-table#tabelaspec td {
-    border: 1px solid #606060;
+table#tabela td {
+    border: 2px solid #606060;
     padding: 10px;
 }
-table#tabelaspec td {
+table#tabela td {
     border: 1px solid #606060;
     padding: 10px;
 }
 
-table#tabelaspec td.ce {
+table#tabela td.ce {
     background-color: #606060;
     color: #fff; /* cor da fonte: branco */
     vertical-align: top;
@@ -168,17 +168,17 @@ table#tabelaspec td.ce {
     font-weight: bolder; /* negrito */
 }
 
-table#tabelaspec td.cd {
+table#tabela td.cd {
     background-color: #cecece; /* cinza claro */
 }
 
-table#tabelaspec caption {
+table#tabela caption {
     color: #888; /* cor da fonte: cinza */
     font-size: 13pt; /* tamanho da fonte */
     font-weight: bolder; /* negrito */
 }
 
-table#tabelaspec caption span {
+table#tabela caption span {
     display: block; /* transforma o obj em bloco (se desprende) */
     float: right; /* flutuar para a direita */
     font-size: 6pt;
