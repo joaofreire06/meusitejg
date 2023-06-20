@@ -151,7 +151,7 @@ table#tabelaspec {
     border-spacing: 0px; /* espaçamento entre bordas */
     margin: auto; /* centralizar a tabela */
 }
-able#tabelaspec td {
+table#tabelaspec td {
     border: 1px solid #606060;
     padding: 10px;
 }
