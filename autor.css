@@ -51,17 +51,17 @@ article#noticia-principal {
     text-indent: 50px;
 
 }
+img#imagem {
+    position: relative;
+    left: 50px;
+    top: 3px;
+    height: 500px;
+    width: 500x;
+}
 article#noticia-principal h1 {
     font-size:13pt;
     color: #fff;
     background-color: #008000;
     padding: 5px 0px 5px 10px;
     margin: 10px 0px 10px 0px;
-}
-img#imagen {
-    position: absoluto;
-    left: 0px;
-    top: 10px;
-    height: 500px;
-    width: 500x;
 }
